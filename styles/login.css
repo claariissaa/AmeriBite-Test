@@ -1,0 +1,103 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* PAGE LOGIN */
+
+.login img {
+  width: 150px;
+  height: auto;
+}
+.login {
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 33%);
+  text-align: center;
+}
+
+.login img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login h1 {
+  color: #333;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  max-width: 325px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ff0000, #f73690, #ff8000, #ffc907);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+}
+
+
+.create-account {
+  color: rgb(0, 0, 255);
+  padding-top: 20px;
+}
+
+.create-account a {
+  text-decoration: none;
+  color: #0057ff;
+}
+
+.create-account a:hover {
+  color: red;
+}
+
